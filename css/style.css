@@ -15,8 +15,8 @@ body {
 }
 
 body header {
+  margin-top: 50px;
   width: 800px;
-  background-color: aquamarine;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,5 +76,100 @@ body header .nowTime .copy {
   padding: 10px 20px;
   background-color: white;
   border-radius: 5px;
+}
+
+body main {
+  margin-top: 50px;
+}
+
+body main .format {
+  display: none;
+  margin-bottom: 50px;
+}
+
+body main .format tr th,
+body main tr {
+  border: 1px solid #d8d8cd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .format tr th :nth-child(1),
+body main tr :nth-child(1) {
+  width: 250px;
+  background-color: rgba(199, 225, 225, 0.676);
+  height: 30px;
+  text-align: start;
+  font-weight: 700;
+}
+
+body main .format tr th :nth-child(2),
+body main tr :nth-child(2) {
+  width: 550px;
+  background-color: white;
+  height: 30px;
+  text-align: start;
+}
+
+body main h2 {
+  text-align: start;
+  font-weight: 600;
+}
+
+body main form {
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  gap: 50px;
+  margin-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body main form .inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main form .inputs div label {
+  font-weight: 700;
+}
+
+body main form .inputs div input {
+  margin-top: 8px;
+  outline: 0;
+  width: 80px;
+  height: 30px;
+  border: 1px solid #b0b0de;
+  border-radius: 5px;
+}
+
+body main form button {
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  margin-bottom: 50px;
+}
+
+body main .unix {
+  display: none;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */
