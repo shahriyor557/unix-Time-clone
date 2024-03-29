@@ -1,1 +1,80 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header {
+  width: 800px;
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body header .inputTime {
+  max-width: 300px;
+}
+
+body header .inputTime h1 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+body header .inputTime p {
+  margin-bottom: 10px;
+}
+
+body header .inputTime input {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+body header .inputTime button {
+  padding: 10px 30px;
+  background-color: blue;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+}
+
+body header .nowTime h1 {
+  font-size: 60px;
+  margin-top: 35px;
+  margin-right: 50px;
+}
+
+body header .nowTime p {
+  font-weight: 500;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+body header .nowTime .watch {
+  text-align: center;
+  margin-right: 20px;
+}
+
+body header .nowTime .copy {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
