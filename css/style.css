@@ -74,8 +74,11 @@ body header .nowTime .watch {
 
 body header .nowTime .copy {
   padding: 10px 20px;
+  border: none;
   background-color: white;
   border-radius: 5px;
+  border: 1px solid black;
+  font-weight: 600;
 }
 
 body main {
@@ -85,6 +88,10 @@ body main {
 body main .format {
   display: none;
   margin-bottom: 50px;
+}
+
+body main .active {
+  display: block;
 }
 
 body main .format tr th,
@@ -171,5 +178,9 @@ body main form button {
 body main .unix {
   display: none;
   margin-bottom: 50px;
+}
+
+body main .active {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
